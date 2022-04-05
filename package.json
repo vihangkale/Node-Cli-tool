@@ -1,0 +1,20 @@
+{
+  "name": "todos-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vihang",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "conf": "^10.1.2",
+    "node-fetch": "^3.2.3",
+    "chalk":"^2.4.1"
+  },
+  "bin": {
+    "tasksTodo": "./index.js"
+  }
+}
